@@ -1,7 +1,7 @@
 {
     "projects":[
         {
-            "id": "0",
+            "id": 0,
             "project_name": "",
             "technologies": "",
             "live_link": "",
