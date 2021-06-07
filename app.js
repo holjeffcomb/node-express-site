@@ -6,22 +6,32 @@ const app = express();
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
-app.use('/', (req, res, next) => {
-    res.send('INDEX'); 
+app.get('/', (req, res, next) => {
+    const projects = data.projects;
+    console.log(projects);
+    res.render('index', {projects}); 
 });
 
-app.use('/about', (req, res, next) => {
-    res.send('ABOUT');
+app.get('/about', (req, res, next) => {
+    res.render('about');
 });
 
-app.use('/projects/:id', (req, res, next) => {
-
+app.get('/projects/:id', (req, res, next) => {
+    
 });
 
 app.use((req, res, next) => {
     const err = new Error('Page Not Found');
-    res.send('<h1>Page Not Found</h1>');
-})
+    err.status = 404;
+    next(err);
+});
+
+app.use( (err, req, res, next) =>{  
+    // render the error page
+    res.status(err.status);
+    console.log(err);
+    res.send(err);
+  });
 
 app.listen(3000, () => {
     console.log("App is running at localhost:3000")

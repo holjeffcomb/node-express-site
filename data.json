@@ -11,9 +11,9 @@
             "live_link": "https://holjeffcomb.github.io/TechDegree-Project-1/",
             "github_link": "https://github.com/holjeffcomb/TechDegree-Project-1",
             "image_urls": [
-                "images\\random-quote-generator-square.jpg",
-                "images\\random-quote-generator-1.jpg",
-                "images\\random-quote-generator-2.jpg"
+                "\\static\\images\\random-quote-generator-square.jpg",
+                "\\static\\images\\random-quote-generator-1.jpg",
+                "\\static\\images\\random-quote-generator-2.jpg"
             ]
         },
         {
@@ -27,9 +27,9 @@
             "live_link": "https://holjeffcomb.github.io/Pagination-Project/",
             "github_link": "https://github.com/holjeffcomb/Pagination-Project",
             "image_urls": [
-                "images\\pagination-square.jpg",
-                "images\\pagination-1.jpg",
-                "images\\pagination-2.jpg"
+                "\\static\\images\\pagination-square.jpg",
+                "\\static\\images\\pagination-1.jpg",
+                "\\static\\images\\pagination-2.jpg"
             ]
         },
         {
@@ -43,9 +43,9 @@
             "live_link": "https://holjeffcomb.github.io/Dynamic-Form-Project/",
             "github_link": "https://github.com/holjeffcomb/Dynamic-Form-Project",
             "image_urls": [
-                "images\\validation-form-square.jpg",
-                "images\\validation-form-1.jpg",
-                "images\\validation-form-2.jpg"
+                "\\static\\images\\validation-form-square.jpg",
+                "\\static\\images\\validation-form-1.jpg",
+                "\\static\\images\\validation-form-2.jpg"
             ]
         },
         {
@@ -59,9 +59,9 @@
             "live_link": "https://holjeffcomb.github.io/oop-game-show-app/",
             "github_link": "https://github.com/holjeffcomb/oop-game-show-app",
             "image_urls": [
-                "images\\phrase-hunter-square.jpg",
-                "images\\phrase-hunter-1.jpg",
-                "images\\phrase-hunter-2.jpg"
+                "\\static\\images\\phrase-hunter-square.jpg",
+                "\\static\\images\\phrase-hunter-1.jpg",
+                "\\static\\images\\phrase-hunter-2.jpg"
             ]
         },
         {
@@ -76,9 +76,9 @@
             "live_link": "https://holjeffcomb.github.io/public-api-project/",
             "github_link": "https://github.com/holjeffcomb/public-api-project",
             "image_urls": [
-                "images\\api-pull-directory-square.jpg",
-                "images\\api-pull-directory-1.jpg",
-                "images\\api-pull-directory-2.jpg"
+                "\\static\\images\\api-pull-directory-square.jpg",
+                "\\static\\images\\api-pull-directory-1.jpg",
+                "\\static\\images\\api-pull-directory-2.jpg"
             ]
         }
     ]
