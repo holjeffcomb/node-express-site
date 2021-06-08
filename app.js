@@ -8,7 +8,6 @@ app.use('/static', express.static('public'));
 
 app.get('/', (req, res, next) => {
     const projects = data.projects;
-    console.log(projects);
     res.render('index', {projects}); 
 });
 
@@ -17,7 +16,9 @@ app.get('/about', (req, res, next) => {
 });
 
 app.get('/projects/:id', (req, res, next) => {
-    
+    const id = parseInt(req.params.id);
+    const project = data.projects.find(project => project.id === id);
+    res.render('project', {project});
 });
 
 app.use((req, res, next) => {

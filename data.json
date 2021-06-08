@@ -3,6 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
+            "description": "",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -19,6 +20,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination Site",
+            "description": "",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -35,6 +37,7 @@
         {
             "id": 2,
             "project_name": "Dynamic Form Validation",
+            "description": "",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -51,6 +54,7 @@
         {
             "id": 3,
             "project_name": "Phrase Hunter App",
+            "description": "",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -67,6 +71,7 @@
         {
             "id": 4,
             "project_name": "API Request Directory",
+            "description": "",
             "technologies": [
                 "JavaScript",
                 "HTML",
