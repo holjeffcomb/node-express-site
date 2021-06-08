@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "",
+            "description": "The Random Quote Generator represents my first venture into the world of JavaScript. This project supplies the DOM with data from an array of objects which hold some of my favorite quotes and their author, along with any other information like tags or year. Furthermore, quotes are updated every 10 seconds, so you can use it as a screensaver of sorts. Although simple in design, this project is extremely valuable in serving as a springboard to get into the more complex elements of web development.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -20,7 +20,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination Site",
-            "description": "",
+            "description": "The purpose of the Data Pagination Site was to get some practice in properly displaying a large amount of data, like an employee directory, in a user-friendly way. In this case, the employee directory is generated from an API of random, non-existant people and stored in a JSON file, then displayed in a paginated format for easy and intuitive browsing. Search bar functionality also narrows the list of employees. All of these features are implemented by accessing and manipulating the DOM.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -37,7 +37,7 @@
         {
             "id": 2,
             "project_name": "Dynamic Form Validation",
-            "description": "",
+            "description": "This project uses various techniques and regular expressions in JavaScript to validate entries in a form, giving a smoother overall user experience. Through DOM manipulation and JavaScript logic, the form updates dynamically as the user enters values in the various fields. The email address field will show an error if an invalid email format is entered, or the activity registration section will gray out certain activities if there is a scheduling conflict.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -54,7 +54,7 @@
         {
             "id": 3,
             "project_name": "Phrase Hunter App",
-            "description": "",
+            "description": "The Phrase Hunter App is my first experience with building a web-based game. The game pulls a phrase from an array of phrase objects, hides it, and the user has to guess the phrase like a game of Hangman, while only being given five incorrect guesses before game over. This project implements JavaScript DOM manipulation to update the board as guesses are made, and uses static image files to display the amount of hearts left.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -71,12 +71,13 @@
         {
             "id": 4,
             "project_name": "API Request Directory",
-            "description": "",
+            "description": "While similar to the Data Pagination Project, this project takes it a step beyond by integrating an actual API request from an external database. The API provides a list of randomly generated users to populate a directory of employees. A search function helps to narrow down results, and clicking on each user will build a modal window of the selected employee, so the you can get a more in-depth look at their details. CSS values are updated when the user hovers their mouse over certain elements on the page, giving a cleaner and more user-friendly experience.",
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS",
-                "API"
+                "API",
+                "Modal Windows"
             ],
             "live_link": "https://holjeffcomb.github.io/public-api-project/",
             "github_link": "https://github.com/holjeffcomb/public-api-project",
