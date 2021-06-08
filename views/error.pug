@@ -1,0 +1,6 @@
+extends layout.pug
+
+block content
+    h1 Oops! An error has occurred. Status: #{err.status}
+    p Error Message: #{err.message}
+    p= err.stack

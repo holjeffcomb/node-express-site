@@ -17,10 +17,18 @@ app.use((req, res, next) => {
     next(err);
 });
 
-// render the error page
+// global error handler
 app.use( (err, req, res, next) =>{  
-    res.status(err.status);
-    res.send(err);
+    if(!err.status) err.status = 500;
+    if(!err.message) err.message = 'An unknown error has been detected';
+    console.log(`Error status: ${err.status}`);
+    console.log(`Error message: ${err.message}`);
+    console.log(`Stack trace: ${err.stack}`);
+    if (err.status === 404) {
+        res.render('page-not-found', {err});
+    } else {
+        res.render('error', {err});
+    }
   });
 
 app.listen(3000, () => {
